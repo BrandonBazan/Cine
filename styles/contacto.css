@@ -1,0 +1,125 @@
+body{
+    background-color: blueviolet;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center; 
+}
+.quienes-somos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+}
+#titulo-parrafo{
+    font-size: 1.5rem;
+}
+#quienes-somos{
+    font-size: 1.3rem;
+}
+.seccion-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+}
+
+img{
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 20px;
+}
+.contenedor-formulario{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+    min-height: 500px;
+    padding: 100px;
+    background-color: #A88BBD;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    font-size: 1.35rem;
+}
+.entrada-datos{
+    margin: 20px;
+    margin-bottom: 30px;
+}
+input, textarea {
+    min-height: 35px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+fieldset{
+    border: none;
+}
+legend{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+form{
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 15px;
+    min-width: 600px;
+    padding: 15px;
+}
+.boton{
+    min-height: 35px;
+    border-radius: 5px;
+    width: 60%;
+}
+@media(max-width:425px){
+   nav{
+    justify-content: center;
+    text-align: center;
+   }
+   a{
+    width: 90%;
+   }
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 15px;
+    background-color: rgb(191, 157, 223);
+    text-align: center;
+    word-spacing: 3px;
+    min-height: 200px;
+    border-radius: 15px;
+}

@@ -1,0 +1,148 @@
+body{
+    background-color: blueviolet;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    }
+nav{
+text-align: right;
+word-spacing: 10px;
+padding: 10px;
+margin: 10px;
+
+}
+.bienvenidos{
+    text-align: center;
+}
+.titulo-bienvenidos{
+    font-size: 1.5rem;
+}
+.texto-bienvenidos{
+    font-size: 1.3rem;
+}
+
+.card-uno{
+    background-image: url("../src/imagenes/Amigos\ imaginarios.jpg");
+
+}
+.card-dos{
+    background-image: url("../src/imagenes/El\ planeta\ de\ los\ simios.jpeg");
+}
+.card-tres{
+    background-image: url("../src/imagenes/abigail.jpg");
+}
+.card-cuatro{
+    background-image: url("../src/imagenes/Desafiantes.png");
+}
+.card-cinco{
+    background-image: url("../src/imagenes/Garfield.jpg");
+}
+.card-seis{
+    background-image: url("../src/imagenes/jugaremos\ en\ el\ bosque.jpg");
+}
+.card-siete{
+    background-image: url("../src/imagenes/furiosa.jpg");
+}
+.card-ocho{
+    background-image: url("../src/imagenes/firma\ aquí.jpg");
+}
+.card{
+    display: flex;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    width: 450px;
+    height: 600px;
+}
+.cartelera{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info_texto{
+    color: aliceblue;
+    opacity: .1;
+}
+.info_texto:hover{
+    opacity: 1;
+}
+
+.titulo{
+    font-size: 3rem;
+}
+.subtitulo{
+    font-size: 1.8rem;
+}
+.texto{
+    font-size: 1.7rem;
+}
+.boton-agregar{
+    background-color: rgb(191, 157, 223);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    font-weight: bold;
+    font-size: 1.03rem;
+    margin: 10px;
+    color: aliceblue;
+    }
+    .boton-agregar:hover{
+    background-color: blueviolet;
+   }
+.footer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+color: aliceblue;
+padding: 15px;
+background-color: rgb(191, 157, 223);
+font-size: 1.4rem;
+border-radius: 20px;
+}
+@media(max-width:425px){
+    .card{
+        display: flex;
+        align-items: end;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 15px;
+        width: 300px;
+        height: 500px;
+    }
+    .titulo{
+        font-size: 1.7rem;
+    }
+    .subtitulo{
+        font-size: 1.5rem;
+    }
+    .texto{
+        font-size: 1.4rem;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    a{
+        width: 90%;
+        margin: 10px;
+    }
+ }
+header{
+    padding: 30px;
+}
